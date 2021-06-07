@@ -1,0 +1,29 @@
+h1{
+    color: salmon;
+    /*text-align: center; use while commenting display flex in header*/
+}
+/*
+*{
+   border: solid;
+}*/
+
+body{
+    background-color: #808080;
+}
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h2,p{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
